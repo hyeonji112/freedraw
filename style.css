@@ -18,9 +18,27 @@
 }
 
 /*home 이미지 전체*/
-.num1{
-    width: 100%;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+.num-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.num1 {
+  width: 50%; /* 각 요소의 너비를 50%로 설정하여 두 개씩 배치 */
+}
+
+.num-img {
+  width: 100%;
+}
+
 
 .stb{
     /* 스크롤 버튼 스타일 */
