@@ -91,20 +91,19 @@
 .menu-list{ 
     text-decoration: none;
     margin : 30px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /*드롭다운 텍스트*/
 .show {
     display: block;
     width: 370px;
-    height: 600px;
+    height: 1000px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    transform: translateX(-90%);
+    transform: translateX(-50%);
     font-size: 20px;
     padding-left: 10px;
-    padding-top: 5px;
 }
 
 
