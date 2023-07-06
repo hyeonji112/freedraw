@@ -49,6 +49,9 @@
     margin: 25px;
 }
 
+.menubutton{
+  width: 30px;
+}
 
 .dropdown-content {
     position: absolute; /*메뉴버튼 포지션*/
