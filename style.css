@@ -14,7 +14,7 @@
 
 .poster{
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20%;
 }
 
 /*home 이미지 전체*/
@@ -134,7 +134,7 @@
     position: fixed;
     margin-top: 50px;
     width: 100%;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -45%);
   }
