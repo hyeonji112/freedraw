@@ -53,8 +53,8 @@ window.addEventListener("click", function(event) {
   });
 
 
+  
 // 달력
-
 var sliderContainer = document.querySelector('.slider-container');
 var slider = document.querySelector('.slider');
 var currentIndex = 0; // 현재 이미지 인덱스
@@ -62,7 +62,8 @@ var currentIndex = 0; // 현재 이미지 인덱스
 // 이미지 전환 함수
 function goToNextImage() {
   currentIndex = (currentIndex + 1) % totalImages;
-  slider.style.transform = 'translateX(' + (-33.333 * currentIndex) + '%)';
+  slider.style.transform = 'translateX(' + (-7.1429 * currentIndex) + '%)'; // 이미지 개수에 따라 조정
+  updateIndicator(); // 인디케이터 업데이트
 }
 
 // 이미지 클릭 이벤트에 goToNextImage 함수 연결
@@ -75,8 +76,8 @@ for (var i = 0; i < images.length; i++) {
 var totalImages = images.length;
 
 
-// 인디케이터
 
+// 인디케이터//
 var sliderContainer = document.querySelector('.slider-container');
 var slider = document.querySelector('.slider');
 var currentIndex = 0; // 현재 이미지 인덱스
@@ -84,7 +85,7 @@ var currentIndex = 0; // 현재 이미지 인덱스
 // 이미지 전환 함수
 function goToNextImage() {
   currentIndex = (currentIndex + 1) % totalImages;
-  slider.style.transform = 'translateX(' + (-33.333 * currentIndex) + '%)';
+  slider.style.transform = 'translateX(' + (-7.1429 * currentIndex) + '%)';
   updateIndicator(); // 인디케이터 업데이트
 }
 
@@ -124,3 +125,4 @@ sliderContainer.appendChild(indicatorContainer);
 
 // 초기 인디케이터 업데이트
 updateIndicator();
+
