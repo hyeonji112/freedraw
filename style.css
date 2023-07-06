@@ -1,15 +1,15 @@
-.title{
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    font-family: '궁서체';
-    padding: 20px;
+.logo{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 10%;
+    margin: auto;
+    background-color: #ffffff;
+    padding-left: 45%;
+    padding-right: 50%;
     margin-bottom: 10px;
-    width: 100%;
-    height: 56px;
 }
+
 
 .stb{
     /* 스크롤 버튼 스타일 */
@@ -36,8 +36,8 @@
 }
 
 .menu {
-    position: fixed;
     display: inline-block;
+    position: fixed;
     top: 0;
     right: 0;
     margin: 30px;
@@ -67,8 +67,10 @@
     font-size: 20px;
     padding: 20px;
 }
+
+/*home 이미지 전체*/
 .num1{
-    width:100%
+    width: 100%;
 }
 .menu-list{
     text-decoration: none;
@@ -81,6 +83,7 @@
 .slider-container {
     width: 780px;
     overflow: hidden;
+    margin: 100px;
   }
   
   .slider {
