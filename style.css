@@ -2,13 +2,13 @@
   display: flex;
   position: fixed;
   justify-content: center;
-  width: 20%;
+  width: 27%;
   margin: auto;
   background-color: #ffffff;
   padding-left: 37%;
   padding-right: 50%;
-  padding-bottom: 7px;
-  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   top:0px;
 }
 
@@ -46,7 +46,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    margin: 17.5px;
+    margin: 19px;
 }
 
 .menubutton{
