@@ -39,6 +39,7 @@
   width: 100%;
 }
 
+
 .stb{
     /* 스크롤 버튼 스타일 */
     #scrollBtn {
@@ -107,7 +108,7 @@
 }
 
 
-#info
+/*info*/
 
 /* 달력 */
 .slider-container {
@@ -155,8 +156,6 @@
     left: 50%;
     transform: translate(-50%, -45%);
   }
-
-
 
   /*굿즈*/
   .info3{
