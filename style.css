@@ -40,8 +40,12 @@
 }
 
 @media screen and (max-width: 768px) { /* 모바일 화면 크기에 따라 조정 */
+  .num-container {
+      flex-wrap: nowrap; /* 줄바꿈을 방지하여 가로 스크롤 생성 */
+  }
+
   .num1 {
-      width: 50%; /* 모바일에서는 이미지를 한 줄에 하나씩 배치 */
+      width: 50%; /* 모바일에서도 가로로 2개씩 배치 */
   }
 }
 
