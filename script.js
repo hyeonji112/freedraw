@@ -39,18 +39,25 @@ function easeOutQuad(t) {
 
 // 메뉴 버튼 클릭 이벤트 핸들러
 document.getElementById("menuBtn").addEventListener("click", function() {
-    var menuContent = document.getElementById("menuContent");
-    menuContent.classList.toggle("show");
-  });
+  var menuContent = document.getElementById("menuContent");
+  menuContent.classList.toggle("show");
+
+  if (menuContent.classList.contains("show")) {
+      menuContent.style.animation = "slideIn 0.3s forwards";
+  } else {
+      menuContent.style.animation = "slideOut 0.3s forwards"; // 슬라이드 애니메이션 추가
+  }
+});
 
   // 메뉴 창 외부를 클릭하면 메뉴 창 닫기
 window.addEventListener("click", function(event) {
     var menuWrapper = document.getElementById("menuWrapper");
     if (!menuWrapper.contains(event.target)) {
-      var menuContent = document.getElementById("menuContent");
-      menuContent.classList.remove("show");
+        var menuContent = document.getElementById("menuContent");
+        menuContent.classList.remove("show");
+        menuContent.style.animation = "slideOut 0.3s forwards"; // 슬라이드 애니메이션 추가
     }
-  });
+});
 
 
   

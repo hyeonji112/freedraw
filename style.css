@@ -77,11 +77,23 @@
 }
 
 .dropdown-content {
-    position: absolute; /*메뉴버튼 포지션*/
-    display: none;
-    flex-direction: column;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8); /* 배경 색상을 어둡게 설정 */
+  animation: slideIn 0.3s forwards; /* 슬라이드 애니메이션 추가 */
 }
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%); /* 시작 위치 설정 */
+  }
+  to {
+    transform: translateX(-50%); /* 최종 위치 설정 */
+  }
+}
+
 
 /*드롭다운 스타일*/
 .dropdown-content a {
