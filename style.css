@@ -72,7 +72,7 @@
 
 .menu-list{ 
     text-decoration: none;
-    margin : 20%;
+    margin: 20%;
     font-size: 30px;
 }
 
@@ -132,9 +132,8 @@
   
   .gif{
     position: fixed;
-    margin-top: 10px;
     width: 100%;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -45%);
   }
