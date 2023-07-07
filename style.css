@@ -29,11 +29,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  margin: 15px;
 }
 
 .num1 {
   width: 50%; /* 각 요소의 너비를 50%로 설정하여 두 개씩 배치 */
+  margin: 15px;
 }
 
 .num-img {
