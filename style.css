@@ -40,7 +40,10 @@
   width: 100%;
 }
 
-
+.bottom-img{
+  width: 100%;
+}
+  
 .stb{
     /* 스크롤 버튼 스타일 */
     #scrollBtn {
