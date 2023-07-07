@@ -29,6 +29,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  margin: 15px;
 }
 
 .num1 {
