@@ -17,8 +17,8 @@
   margin-top: 10px;
   margin-left: -10px;
   padding: 30px;
-  justify-content: center;
-}
+  justify-content: 
+  
 
 /*home 이미지 전체*/
 .container {
@@ -208,7 +208,7 @@
   }
 .info6{
   width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
   .credit{
