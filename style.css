@@ -14,7 +14,7 @@
 
 .poster{
   width: 100%;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 /*home 이미지 전체*/
@@ -42,6 +42,11 @@
 
 .bottom-img{
   width: 100%;
+}
+
+.img7{
+  width: 50%;
+  margin-left: 50px;
 }
   
 .stb{
