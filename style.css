@@ -13,12 +13,9 @@
 }
 
 .poster{
-  width: 90%;
-  margin-top: 10px;
-  margin-left: -10px;
-  padding: 30px;
-  justify-content: 
-  
+  width: 100%;
+  margin-top: 30px;
+}
 
 /*home 이미지 전체*/
 .container {
@@ -43,17 +40,8 @@
   width: 100%;
 }
 
-.top-img{
-  width: 100%;
-  margin-top: 30px;
-}
-
 .bottom-img{
   width: 100%;
-}
-.img7{
-  width: 70%;
-  margin-left: 50px;
 }
   
 .stb{
@@ -140,6 +128,7 @@
 /* 달력 */
 .slider-container {
   width: 100%;
+  margin-top: 60px;
   overflow: hidden;
 }
 
@@ -175,43 +164,16 @@
   }
   
   .gif{
-    margin-top: 30px;
+    position: fixed;
+    margin-top: 50px;
     width: 100%;
     top: 30%;
     left: 50%;
+    transform: translate(-50%, -45%);
   }
 
   /*굿즈*/
   .info3{
     width: 100%;
     margin-top: 30px;
-  }
-
-  .info1{
-    width: 100%;
-  }
-  .info1-name{
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  .info2{
-    width: 100%;
-    margin-top: 60px;
-  }
-  .info4{
-    width: 100%;
-    margin-top: 100px;
-  }
-  .info5{
-    width: 100%;
-    margin-top: 30px;
-  }
-.info6{
-  width: 100%;
-  margin-top: 50px;
-}
-
-  .credit{
-    width: 100%;
-    margin-top: 50px;
   }
